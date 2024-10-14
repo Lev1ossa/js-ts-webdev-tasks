@@ -1,0 +1,170 @@
+@font-face {
+  font-family: "DM Sans";
+  src: url('./assets/font/DMSans-Regular.ttf') format('truetype');
+}
+
+html, body, h1, h2, h3, div, button {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans";
+  font-weight: 400;
+}
+
+body {
+  background: #f2f2f2;
+}
+
+.page-wrapper {
+  background: #ffffff;
+  width: 1400px;
+  height: 1010px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase {
+  width: 1170px;
+  height: 814px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header {
+  width: 1170px;
+  height: 52px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-title {
+  width: 213px;
+  height: 52px;
+  font-size: 42px;
+  line-height: 52px;
+  color: #1E0E62;
+  font-weight: 600;
+}
+
+.cards {
+  width: 1170px;
+  height: 720px;
+  display: flex;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 570px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 10px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card1 {
+  padding: 55px 25px 50px 71px;
+  height: 340px;
+  color: #1E0E62;
+}
+
+.card2 {
+  padding: 55px 36px 50px 69px;
+  height: 340px;
+  color: #1E0E62;
+  border: 2px solid #EBEAED;
+}
+
+.card3 {
+  padding: 55px 82px 50px 71px;
+  height: 350px;
+  color: #FFFFFF;
+}
+
+.card4 {
+  padding: 56px 93px 50px 69px;
+  height: 350px;
+  color: #FFFFFF;
+}
+
+.card1 > .card-info {
+  width: 465px;
+  height: 126px;
+}
+
+.card2 > .card-info {
+  width: 465px;
+  height: 126px;
+}
+
+.card3 > .card-info {
+  width: 417px;
+  height: 152px;
+}
+
+.card4 > .card-info {
+  width: 408px;
+  height: 150px;
+}
+
+.button {
+  border: none;
+  border-radius: 100px;
+  width: 214px;
+  height: 50px;
+  background: none;
+  cursor: pointer;
+  font-size: 18px;
+  color: #1E0E62;
+  font-weight: 700;
+}
+
+.card > .button {
+  width: 105px;
+  height: 40px;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.card-title {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 500;
+}
+
+.card-subtitle {
+  font-size: 16px;
+  line-height: 26px;
+}
+
+.card1 .card-title, 
+.card2 .card-title {
+  font-weight: 600;
+}
+
+.card2 .card-subtitle {
+  opacity: 40%;
+}
+
+.card1 .card-subtitle,
+.card3 .card-subtitle {
+  margin-left: 9px;
+}
+
+.card3 .card-subtitle,
+.card4 .card-subtitle {
+  filter: brightness(0.9);
+}
